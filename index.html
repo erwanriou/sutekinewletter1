@@ -108,6 +108,21 @@
         color: white;
         padding: 2rem;
       }
+      @media only screen and (max-width: 700px) {
+        table, tbody, img {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+        .text{
+          top: 50rem;
+        }
+      }
+      @media only screen and (max-width: 350px) {
+        .text{
+          top: 55rem;
+        }
+      }
     </style>
   </head>
   <body>
