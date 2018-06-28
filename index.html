@@ -1,112 +1,15 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
   <head>
-    <meta charset="utf-8">
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
-    <title>OBJECT</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>*|MC:SUBJECT|*</title>
     <!-- Integration of CSS styles -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
     <style type="text/css">
       body {
-        margin: 0;
-        font-size: 12px;
-      }
-      table {
-        position: relative;
-        margin: 0 auto;
-        border-spacing: 0;
-        width: 700px;
         font-family: 'Roboto', sans-serif;
-        text-align: center;
-      }
-      tr {
-        display: flex;
-        flex-direction: column;
-      }
-      .image, .imgtitle {
-        position: relative;
-        overflow: hidden;
-        max-width: 700px;
-        max-height: 500px;
-      }
-      .image img {
-        width: 700px;
-      }
-      .imgtitle img {
-        max-width: 700px;
-      }
-      .title h1, .title p {
-        position: absolute;
-        z-index: 1000;
-        color: white;
-        width: 100%;
-        left: 0;
-      }
-      .title h1 {
-        top: 40px;
-        font-size: 2rem;
-      }
-      .title p {
-        font-size: 1rem;
-        top: 80px;
-      }
-      .imgtitle {
-        height: 180px;
-        overflow: hidden;
-      }
-      .subtitle {
-        border: 1px solid #e8e7e7;
-        margin: 2rem 0 1rem 0;
-        padding: 1rem;
-        box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1);
-      }
-      .subtitle h2 {
-        font-size: 1.5rem;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        text-align: left;
-      }
-      .subtitle p {
-        font-style: italic;
-        text-align: left;
-      }
-      .text {
-        position: absolute;
-        z-index: 1000;
-        width: 100%;
-        align-items: center;
-        top: 40rem;
-        font-size: 14px;
-      }
-      .text td {
-        width: 50%;
-        border: 1px solid #e8e7e7;
-        padding: 1rem;
-        color: white;
-        box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1);
-      }
-      .text p {
-        color: black;
-      }
-      .text2 h2 {
-        font-weight: bold;
-      }
-      .text2 td {
-        color: black;
-        margin: 1rem 0 2rem 0;
-        text-align: left;
-        border: 1px solid #e8e7e7;
-        padding: 2rem;
-        box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1);
-      }
-      .text2 h3 {
-        font-weight: 300;
-      }
-      .contact{
-        text-align: left;
-        background-color: #444444;
-        color: white;
-        padding: 2rem;
       }
       @media only screen and (max-width: 700px) {
         table, tbody, img {
@@ -125,39 +28,42 @@
       }
     </style>
   </head>
-  <body>
-    <table id="newsletter">
-      <tr class="section title">
-        <td><h1>SUTEKI HOME</h1></td>
-        <td><p>www.sutekihome.fr</p></td>
+  <body style='margin: 0; padding:0; font-size: 12px;'>
+    <table
+      id="newsletter"
+      class="responsive-table"
+      style='position: relative; margin: 0 auto; border-spacing: 0; width: 700px; text-align: center;'
+      align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+      <tr class="section title" style='display: flex; flex-direction: column;'>
+        <td><h1 style='position: absolute; z-index: 1000; color: white; width: 100%; left: 0; top: 40px; font-size: 2rem;'>SUTEKI HOME</h1></td>
+        <td><p style='position: absolute; z-index: 1000; color: white; width: 100%; left: 0; font-size: 1rem; top: 80px;'>www.sutekihome.fr</p></td>
       </tr>
-      <tr class="section imgtitle">
-        <td><img src="./ressources/images/C1 (1).jpg" alt="image de la facade de la maison suketi"></td>
+      <tr class="section imgtitle" style='display: flex; flex-direction: column; position: relative; overflow: hidden; max-width: 700px; max-height: 500px; height: 180px; overflow: hidden;'>
+        <td><img src="./ressources/images/C1 (1).jpg" alt="image de la facade de la maison suketi" style='width: 700px;' class="responsive-image"></td>
       </tr>
-      <tr class="section subtitle">
-        <td><h2>Lancement Vente - 3 Maisons d’Architecte</h2></td>
-        <td><p>Programme en cours de finition</p></td>
+      <tr class="section subtitle" style='display: flex; flex-direction: column; border: 1px solid #e8e7e7; margin: 2rem 0 1rem 0; padding: 1rem; box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1);'>
+        <td><h2 style='font-size: 1.5rem; margin-bottom: 0; padding-bottom: 0; text-align: left;'>Lancement Vente - 3 Maisons d’Architecte</h2></td>
+        <td><p style='font-style: italic; text-align: left;'>Programme en cours de finition</p></td>
       </tr>
-      <tr class="section text2">
-        <td>
-          <h2>Le bien-être de la famille au cœur de votre vie</h2>
+      <tr class="section text2" style='display: flex; flex-direction: column;'>
+        <td style='color: black; margin: 1rem 0 2rem 0; text-align: left; border: 1px solid #e8e7e7; padding: 2rem; box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1);'>
+          <h2 style='font-weight: bold;'>Le bien-être de la famille au cœur de votre vie</h2>
           <p>Venez découvrir nos maisons d’Architecte uniques au design contemporain en structure bois avec poutres apparentes.</p>
           <p>Dans un cadre vert et boisé, à proximité de Disney, devenez propriétaire de maisons de 3 ou 4 chambres avec combles aménagées et grand garage.</p>
           <p><strong>1 rue des Marronniers 77580 Coutevroult</strong></p>
         </td>
       </tr>
-
-      <tr class="section image">
-        <td><img src="./ressources/images/C1 (2).jpg" alt="image de l'interieur de la maison suketi"></td>
+      <tr class="section image" style='display: flex; flex-direction: column; position: relative; overflow: hidden; max-width: 700px; max-height: 500px;'>
+        <td><img src="./ressources/images/C1 (2).jpg" alt="image de l'interieur de la maison suketi" style='width: 700px;' class="responsive-image"></td>
       </tr>
-      <tr class="section text">
-        <td>
+      <tr class="section text" style='display: flex; flex-direction: column; position: absolute; z-index: 1000; width: 100%; align-items: center; top: 40rem; font-size: 14px;'>
+        <td style='width: 50%; border: 1px solid #e8e7e7; padding: 1rem; color: white; box-shadow: 2px 4px 8px 0 rgba(0,0,0,.1);'>
           <h3>Invitation Journées Portes Ouvertes</h3>
           <h3>7 et 8 Juillet à Coutevroult</h3>
           <h3>Parc des Marronniers</h3>
         </td>
       </tr>
-      <tr class="section contact">
+      <tr class="section contact" style='display: flex; flex-direction: column; text-align: left; background-color: #444444; color: white; padding: 2rem;'>
         <td>
           <h2>Adresse: </h2>
           <p>1 rue des Marronniers 77580 Coutevroult</p>
